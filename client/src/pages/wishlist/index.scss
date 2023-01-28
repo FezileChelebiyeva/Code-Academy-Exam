@@ -1,0 +1,57 @@
+#wishlist {
+  padding: 200px 0;
+  background-color: rgb(39, 38, 38);
+  .wishlist {
+    .cards {
+      margin-top: 60px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+      gap: 40px 5px;
+      .card {
+        width: 33%;
+        border-radius: 10px;
+        .btn {
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          button {
+            background-color: #28ae60;
+            border: 1px solid #fff;
+            outline: 0;
+            padding: 8px 30px;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 15px;
+            cursor: pointer;
+            transition: all 0.4s;
+            &:hover {
+              background-color: #fff;
+              border: 1px solid #28ae60;
+              color: #28ae60;
+            }
+          }
+        }
+
+        .img {
+          img {
+            width: 380px;
+            border-radius: 10px;
+          }
+          .info {
+            padding: 20px 0;
+
+            p {
+              margin-top: 5px;
+              color: #28ae60;
+              font-weight: 500;
+              font-size: 20px;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
